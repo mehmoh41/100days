@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+
+        }
+    .w-200 {
+      width: 200px;
+    }
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .bg-color {
+      background-color: hsl(217, 54%, 11%);
+    }
+    .bg-card {
+      background-color: hsl(216, 50%, 16%);
+    }
+    .line-colors {
+      color: hsl(215, 32%, 27%)
+    }
+    .soft-blue {
+      color: hsl(215, 51%, 70%);
+    }
+    .cyan-color {
+      color: hsl(178, 100%, 50%);
+    }
+  </style>
+  <body class="bg-color">
+    <div class="center line-colors p-4 h-auto shadow-2xl">
+      <div class="h-auto shadow-md">
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="image image-equilibrium"
+          class="rounded-lg w-80"
+        />
+      </div>
+      <div class="">
+        <p class="my-4 cyan-color font-bold tracking-wide">Equilibrium #3429</p>
+        <p class="tracking-wider my-4 soft-blue">
+          Our Equilibrium collection promotes<br />
+          balance and calm.
+        </p>
+      </div>
+      <div class="flex justify-between mt-4 mb-5">
+        <div class="flex">
+          <img src="images/icon-ethereum.svg" alt="icon ethereum" />
+          <p class="ml-2 font-xs soft-blue">0.041ETH</p>
+        </div>
+        <div class="flex">
+          <img src="images/icon-clock.svg" alt="icon clock" class="w-5 h-5" />
+          <p class="ml-2 font-xs soft-blue">3 days ago</p>
+        </div>
+      </div>
+      <hr />
+      <div class="flex my-4">
+        <div class="border rounded-full">
+          <img src="images/image-avatar.png" alt="image avatar" class="w-8" />
+        </div>
+        <p class="ml-3 mt-1 soft-blue">
+          creation of
+          <span class="cyan-color cursor-pointer">mehdi mohammadi</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
